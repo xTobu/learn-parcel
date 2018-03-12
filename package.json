@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"parcel index.html -p 3030",
-    "build":"parcel build index.html  --public-url /"
+    "test": "jest",
+    "dev": "parcel index.html -p 3030",
+    "build": "parcel build index.html  --public-url /"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "parcel-bundler": "^1.4.1"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2"
   }
 }
